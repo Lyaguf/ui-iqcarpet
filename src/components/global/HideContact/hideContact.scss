@@ -1,0 +1,22 @@
+
+$primary-blue: #0052B9;
+.hideContact {
+    display: flex;
+    flex-wrap: wrap;
+    &__contact {
+        color: #000000;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 120%;
+        flex-wrap: wrap;
+        margin-right: 12px;
+    }
+    &__button {
+        font-size: 14px;
+        line-height: 120%;
+        color: $primary-blue;
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+}
+
